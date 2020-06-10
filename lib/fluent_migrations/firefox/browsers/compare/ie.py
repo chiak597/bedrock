@@ -7,11 +7,11 @@ from fluent.migrate import REPLACE, COPY
 ie = "firefox/compare/ie.lang"
 
 def migrate(ctx):
-    """Migrate bedrock/firefox/templates/firefox/compare/ie.html, part {index}."""
+    """Migrate bedrock/firefox/templates/firefox/browsers/compare/ie.html, part {index}."""
 
     ctx.add_transforms(
-        "firefox/compare/ie.ftl",
-        "firefox/compare/ie.ftl",
+        "firefox/browsers/compare/ie.ftl",
+        "firefox/browsers/compare/ie.ftl",
         [
             FTL.Message(
                 id=FTL.Identifier("compare-ie-firefox-vs-internet-explorer"),

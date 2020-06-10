@@ -7,11 +7,11 @@ from fluent.migrate import REPLACE, COPY
 shared = "firefox/compare/shared.lang"
 
 def migrate(ctx):
-    """Migrate bedrock/firefox/templates/firefox/compare/index.html, part {index}."""
+    """Migrate bedrock/firefox/templates/firefox/browsers/compare/index.html, part {index}."""
 
     ctx.add_transforms(
-        "firefox/compare/shared.ftl",
-        "firefox/compare/shared.ftl",
+        "firefox/browsers/compare/shared.ftl",
+        "firefox/browsers/compare/shared.ftl",
         transforms_from("""
 compare-shared-yes = {COPY(shared, "Yes",)}
 compare-shared-no = {COPY(shared, "No",)}

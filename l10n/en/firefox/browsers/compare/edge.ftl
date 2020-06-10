@@ -4,21 +4,21 @@
 
 ### URL: https://www-dev.allizom.org/firefox/browsers/compare/edge/
 
-# HTML page title. "Microsoft Edge" is a brand name.
-compare-edge-firefox-vs-microsoft-edge-which = Firefox vs. Microsoft Edge: Which is the better browser for you?
+# HTML page title.
+compare-edge-firefox-vs-microsoft-edge-which = { -brand-name-firefox } vs. { -brand-name-microsoft } { -brand-name-edge }: Which is the better browser for you?
 
-# HTML page description. "Microsoft Edge" is a brand name.
-compare-edge-compare-microsoft-edge-to-the = Compare Microsoft Edge to the { -brand-name-firefox-browser } to find out which is the better browser for you.
+# HTML page description.
+compare-edge-compare-microsoft-edge-to-the = Compare { -brand-name-microsoft } { -brand-name-edge } to the { -brand-name-firefox-browser } to find out which is the better browser for you.
 
-# Main title. "Microsoft Edge" is a brand name.
-compare-edge-comparing-firefox-browser-with = Comparing { -brand-name-firefox-browser } with Microsoft Edge
+# Main title.
+compare-edge-comparing-firefox-browser-with = Comparing { -brand-name-firefox-browser } with { -brand-name-microsoft } { -brand-name-edge }
 compare-edge-with-windows-10-microsoft-introduced = With { -brand-name-windows } 10, { -brand-name-microsoft } introduced its { -brand-name-edge } browser to compete with { -brand-name-firefox } and { -brand-name-chrome } making it the default browser pre-installed on millions of PCs sold. Even so, users were slow to adopt it and { -brand-name-microsoft } eventually announced plans to relaunch { -brand-name-edge } as a Chromium-based browser (Chromium of course being Google’s Open Source browser project).
 
 # "Chromium" is a brand name.
 compare-edge-here-well-compare-our-firefox = Here we’ll compare our { -brand-name-firefox-browser } to the Chromium-based { -brand-name-microsoft } { -brand-name-edge } in terms of privacy, utility, and portability, to help you have a better understanding of which browser better suits your needs and preferences.
 
-# "Windows Hello" is a brand name.
-compare-edge-edge-is-integrated-into-the = { -brand-name-edge } is integrated into the { -brand-name-windows } 10 platform and runs in a sandbox environment, meaning it isolates programs and prevents malicious programs from spying on your computer. It has a built-in SmartScreen that scans the reputation of sites you visit and blocks suspicious sites. To enhance privacy, { -brand-name-edge } allows you to use biometrics or a PIN with Windows Hello instead of passwords for online authentication.
+# "SmartScreen" and "Windows Hello" are brand names.
+compare-edge-edge-is-integrated-into-the = { -brand-name-edge } is integrated into the { -brand-name-windows } 10 platform and runs in a sandbox environment, meaning it isolates programs and prevents malicious programs from spying on your computer. It has a built-in SmartScreen that scans the reputation of sites you visit and blocks suspicious sites. To enhance privacy, { -brand-name-edge } allows you to use biometrics or a PIN with { -brand-name-edge } Hello instead of passwords for online authentication.
 
 # Variables:
 #   $attrs (string) - link to /privacy/firefox/ with additional attributes for analytics
@@ -53,9 +53,8 @@ compare-edge-firefox-also-includes-lots = { -brand-name-firefox } also includes 
 # "Out of the gate" means from the very start. Alternative: "From the start,". Race horses are held behind a gate that is opened to release all the horses at the same time at the start of the race, so a horse that leads the race from the very start is said to lead "right out of the gate."
 compare-edge-out-of-the-gate-firefox-has = Out of the gate, { -brand-name-firefox } has more features and integrations built into the browser and readily available on download. And while both browsers have a tremendous number of add-ons and extensions available, Edge’s compatibility with Google’s Chromium platform gives it the advantage in terms of sheer numbers.
 
-# "Mac" is a brand name.
-compare-edge-with-internet-explorer-microsoft = With { -brand-name-ie }, { -brand-name-microsoft } learned from its lack of availability across platforms and made { -brand-name-edge } readily available on { -brand-name-ios }, { -brand-name-android }, { -brand-name-windows }, Mac, and soon { -brand-name-linux }.
-compare-edge-with-internet-explorer-fallback = With { -brand-name-ie }, { -brand-name-microsoft } learned from its lack of availability across platforms and made { -brand-name-edge } available for { -brand-name-mac } and { -brand-name-android }. The software is now readily available on { -brand-name-ios }, { -brand-name-android }, { -brand-name-windows } and Mac.
+compare-edge-with-internet-explorer-microsoft = With { -brand-name-ie }, { -brand-name-microsoft } learned from its lack of availability across platforms and made { -brand-name-edge } readily available on { -brand-name-ios }, { -brand-name-android }, { -brand-name-windows }, { -brand-name-mac }, and soon { -brand-name-linux }.
+compare-edge-with-internet-explorer-fallback = With { -brand-name-ie }, { -brand-name-microsoft } learned from its lack of availability across platforms and made { -brand-name-edge } available for { -brand-name-mac } and { -brand-name-android }. The software is now readily available on { -brand-name-ios }, { -brand-name-android }, { -brand-name-windows } and { -brand-name-mac }.
 
 # Variables:
 #   $attrs (string) - link to /firefox/accounts/ with additional attributes for analytics

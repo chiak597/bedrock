@@ -48,7 +48,6 @@ compare-opera-in-addition-to-the-regular = In addition to the regular mobile app
 
 # Variables:
 #   $attrs (string) - link to https://play.google.com/store/apps/details?id=org.mozilla.fenix with additional attributes for analytics
-# "Firefox Preview" is a brand name.
-compare-opera-we-also-offer-an-additional = We also offer an additional, albeit experimental version of our { -brand-name-firefox } mobile app, <a { $attrs }>Firefox Preview</a>, which focuses on speed and security.
+compare-opera-we-also-offer-an-additional = We also offer an additional, albeit experimental version of our { -brand-name-firefox } mobile app, <a { $attrs }>{ -brand-name-firefox } Preview</a>, which focuses on speed and security.
 compare-opera-most-major-browsers-these = Most major browsers these days, with the exception of { -brand-name-safari }, work seamlessly across platforms and browsers. { -brand-name-opera } and { -brand-name-firefox } are no exception with both browsers providing excellent portability across every device.
 compare-opera-overall-opera-is-a-solid-browser = Overall, { -brand-name-opera } is a solid browser, with a clean interface and a lot of useful features available. There are, however, some serious privacy concerns as well as an issue with it using a lot of processing power. Although { -brand-name-opera } has some really terrific ease of use features, we still believe { -brand-name-firefox } remains a superior browser based on performance and with a transparent user-privacy stance and strict privacy protections.

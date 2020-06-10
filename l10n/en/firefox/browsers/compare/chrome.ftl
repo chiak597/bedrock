@@ -8,10 +8,10 @@
 compare-chrome-firefox-vs-chrome-which-is = { -brand-name-firefox } vs. { -brand-name-chrome }: Which is better?
 
 # HTML page description
-compare-chrome-we-compare-mozilla-firefox = We compare Mozilla Firefox with Google Chrome in terms of privacy, utility and portability
+compare-chrome-we-compare-mozilla-firefox = We compare { -brand-name-mozilla } { -brand-name-firefox } with { -brand-name-google } { -brand-name-chrome } in terms of privacy, utility and portability
 
-# Main title. "Google Chrome" is a brand name.
-compare-chrome-comparing-firefox-browser = Comparing { -brand-name-firefox-browser } with Google Chrome
+# Main title.
+compare-chrome-comparing-firefox-browser = Comparing { -brand-name-firefox-browser } with { -brand-name-google } { -brand-name-chrome }
 
 # Variables:
 #   $attrs (string) - link to https://monitor.firefox.com with additional attributes for analytics
@@ -20,16 +20,14 @@ compare-chrome-at-firefox-we-have-a-huge = At { -brand-name-firefox }, we have a
 # Variables:
 #   $attrs (string) - link to mozilla.org/privacy/firefox/ with additional attributes for analytics
 compare-chrome-weve-also-recently-restated = We’ve also recently restated our commitment to privacy and transparency regarding user data in our most recent <a { $attrs }>Privacy Notice</a> that states, “At Mozilla, we believe that privacy is fundamental to a healthy internet.”
-
-# "Google Chrome" is a brand name.
-compare-chrome-google-chrome-is-by-all-accounts = Google Chrome is by all accounts a secure browser, with features like Google Safe Browsing, which helps protect users by displaying an impossible-to-miss warning when they attempt to navigate to dangerous sites or download dangerous files.
+compare-chrome-google-chrome-is-by-all-accounts = { -brand-name-google } { -brand-name-chrome } is by all accounts a secure browser, with features like Google Safe Browsing, which helps protect users by displaying an impossible-to-miss warning when they attempt to navigate to dangerous sites or download dangerous files.
 
 # To "draw the line" is to establish a boundary that should not be crossed. Alternative: "it's up to you to decide whether or not or where your limit is with sharing things (...)".
 compare-chrome-ultimately-its-up-to-you = Ultimately, it’s up to you to decide whether or not or where to draw the line with sharing things like your search history and shopping history. But if you’re anything like most people, you’ve probably searched for some things on the internet that you would rather keep private.
 
 # "we've been heads down" means we've been hard at work. Alternative: "we've been hard at work." "Heads down" is when someone is looking down to avoid distractions and focus on the immediate task in front of them.
 compare-chrome-fast-forward-to-today-the = Fast-forward to today, the competitive landscape for browsers has changed with many people beginning to question just what is happening to their online data such as browsing history, passwords, and other sensitive information. A lot has changed since 2008 when { -brand-name-chrome } came onto the scene. At { -brand-name-firefox }, we’ve been heads down, working to redesign our interface and provide users with an ever growing number of privacy and performance enhancements as well as plenty of handy browser tools.
-compare-chrome-and-so-here-we-are-the-browser = And so here we are, the browser-wars are escalating once again and it’s time to reevaluate and compare { -brand-name-firefox-browser } vs Google Chrome.
+compare-chrome-and-so-here-we-are-the-browser = And so here we are, the browser-wars are escalating once again and it’s time to reevaluate and compare { -brand-name-firefox-browser } vs { -brand-name-google } { -brand-name-chrome }.
 compare-chrome-in-2008-google-introduced = In 2008, { -brand-name-google } introduced { -brand-name-chrome }, and its impact as an innovation in browser technology was immediate. It was faster for loading sites, took up minimal screen space and offered an undeniably simple user interface.
 compare-chrome-in-fact-both-chrome-and-firefox = In fact, both { -brand-name-chrome } and { -brand-name-firefox } have rigorous security in place. Both include a thing called “sandboxing” which separates the processes of the browser so something like a harmful website doesn’t infect other parts of your laptop or other device.
 
@@ -37,11 +35,11 @@ compare-chrome-in-fact-both-chrome-and-firefox = In fact, both { -brand-name-chr
 compare-chrome-while-chrome-proves-to-be = While { -brand-name-chrome } proves to be a safe web browser, its privacy record is questionable. { -brand-name-google } actually collects a disturbingly large amount of data from its users including location, search history and site visits. { -brand-name-google } makes its case for data collection saying it’s doing it to improve its services – like helping you find a sweater or a coffee shop like the one you previously bought or visited. However, others might disagree, making the point that { -brand-name-google } is actually gathering an unprecedented amount of data for its own marketing purposes. They tout that they’re keeping your information private from hackers, but that’s beside the point. { -brand-name-google } itself runs the world’s largest advertising network, thanks in large part to data they harvest from their users.
 
 # "Gmail" and "Google Docs" are brand names.
-compare-chrome-in-terms-of-features-both = In terms of features, both { -brand-name-firefox } and { -brand-name-chrome } offer a large library of extensions and plug-ins, with Chrome’s catalog vastly outnumbering any other browser while nicely integrating with other { -brand-name-google } services, like Gmail and Google Docs.
+compare-chrome-in-terms-of-features-both = In terms of features, both { -brand-name-firefox } and { -brand-name-chrome } offer a large library of extensions and plug-ins, with Chrome’s catalog vastly outnumbering any other browser while nicely integrating with other { -brand-name-google } services, like Gmail and { -brand-name-google } Docs.
 compare-chrome-firefox-also-has-a-sync-feature = { -brand-name-firefox } also has a sync feature to see your open and recent tabs, browsing history, and bookmarks across all your devices.
 compare-chrome-while-chrome-gets-the-nod = While { -brand-name-chrome } gets the nod with add-ons and extensions, { -brand-name-firefox } has a nicely curated set of built-in features, such as the incredibly handy screen capture tool, and reading mode feature which strips away everything from the page except the text from the article you’re reading.
 compare-chrome-although-not-as-extensive = Although not as extensive as Chrome’s add-on library, { -brand-name-firefox }, as open-source software with a huge number of active contributors, also features an incredible number of useful extensions.
-compare-chrome-if-having-tons-of-open-tabs = If having tons of open tabs is your thing, then it really comes down to your UI preference. { -brand-name-firefox } features a horizontal scroll on all your open tabs rather than shrinking them smaller and smaller with each new one. Google Chrome prefers to shrink them down so just the favicon is visible. The only problem with this is when you have multiple tabs open from the same website, so you see the same favicon across your tabs.
+compare-chrome-if-having-tons-of-open-tabs = If having tons of open tabs is your thing, then it really comes down to your UI preference. { -brand-name-firefox } features a horizontal scroll on all your open tabs rather than shrinking them smaller and smaller with each new one. { -brand-name-google } { -brand-name-chrome } prefers to shrink them down so just the favicon is visible. The only problem with this is when you have multiple tabs open from the same website, so you see the same favicon across your tabs.
 compare-chrome-almost-needless-to-say-versions = Almost needless to say, versions of both { -brand-name-firefox } and { -brand-name-chrome } are available for the most popular desktop and mobile operating systems ({ -brand-name-windows }, { -brand-name-mac }, { -brand-name-linux }, { -brand-name-android }, { -brand-name-ios }).
 compare-chrome-both-chrome-and-firefox-also = Both { -brand-name-chrome } and { -brand-name-firefox } also allow you to sync things like passwords, bookmarks, and open tabs across all your devices. If you have a { -brand-name-firefox } account, you can manually send an open tab on your desktop to your mobile device or vice versa. With { -brand-name-chrome }, it’s done automatically if you’ve chosen that setting in your preferences. Not having to manually send the tab from one device to the other is convenient when you want to do something like continue reading an article you didn’t finish earlier. But there could be times where automatic syncing might not be ideal if there’s a chance multiple users are browsing while signed in to your { -brand-name-google } account.
 

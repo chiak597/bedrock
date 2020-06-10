@@ -7,11 +7,11 @@ from fluent.migrate import REPLACE, COPY
 chrome = "firefox/compare/chrome.lang"
 
 def migrate(ctx):
-    """Migrate bedrock/firefox/templates/firefox/compare/chrome.html, part {index}."""
+    """Migrate bedrock/firefox/templates/firefox/browsers/compare/chrome.html, part {index}."""
 
     ctx.add_transforms(
-        "firefox/compare/chrome.ftl",
-        "firefox/compare/chrome.ftl",
+        "firefox/browsers/compare/chrome.ftl",
+        "firefox/browsers/compare/chrome.ftl",
         transforms_from("""
 compare-chrome-we-compare-mozilla-firefox = {COPY(chrome, "We compare Mozilla Firefox with Google Chrome in terms of privacy, utility and portability",)}
 """, chrome=chrome) + [

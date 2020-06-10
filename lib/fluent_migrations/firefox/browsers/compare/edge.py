@@ -5,14 +5,13 @@ from fluent.migrate.helpers import VARIABLE_REFERENCE, TERM_REFERENCE
 from fluent.migrate import REPLACE, COPY
 
 edge = "firefox/compare/edge.lang"
-shared = "firefox/compare/shared.lang"
 
 def migrate(ctx):
-    """Migrate bedrock/firefox/templates/firefox/compare/edge.html, part {index}."""
+    """Migrate bedrock/firefox/templates/firefox/browsers/compare/edge.html, part {index}."""
 
     ctx.add_transforms(
-        "firefox/compare/edge.ftl",
-        "firefox/compare/edge.ftl",
+        "firefox/browsers/compare/edge.ftl",
+        "firefox/browsers/compare/edge.ftl",
         [
             FTL.Message(
                 id=FTL.Identifier("compare-edge-firefox-vs-microsoft-edge-which"),
@@ -20,7 +19,9 @@ def migrate(ctx):
                     edge,
                     "Firefox vs. Microsoft Edge: Which is the better browser for you?",
                     {
-                        "Firefox Browser": TERM_REFERENCE("brand-name-firefox-browser"),
+                        "Firefox": TERM_REFERENCE("brand-name-firefox"),
+                        "Microsoft": TERM_REFERENCE("brand-name-microsoft"),
+                        "Edge": TERM_REFERENCE("brand-name-edge"),
                     }
                 )
             ),
@@ -31,6 +32,8 @@ def migrate(ctx):
                     "Compare Microsoft Edge to the Firefox Browser to find out which is the better browser for you.",
                     {
                         "Firefox Browser": TERM_REFERENCE("brand-name-firefox-browser"),
+                        "Microsoft": TERM_REFERENCE("brand-name-microsoft"),
+                        "Edge": TERM_REFERENCE("brand-name-edge"),
                     }
                 )
             ),
@@ -41,6 +44,8 @@ def migrate(ctx):
                     "Comparing Firefox Browser with Microsoft Edge",
                     {
                         "Firefox Browser": TERM_REFERENCE("brand-name-firefox-browser"),
+                        "Microsoft": TERM_REFERENCE("brand-name-microsoft"),
+                        "Edge": TERM_REFERENCE("brand-name-edge"),
                     }
                 )
             ),
@@ -216,6 +221,7 @@ def migrate(ctx):
                         "Android": TERM_REFERENCE("brand-name-android"),
                         "Windows": TERM_REFERENCE("brand-name-windows"),
                         "macOS": TERM_REFERENCE("brand-name-mac"),
+                        "Mac": TERM_REFERENCE("brand-name-mac"),
                     }
                 )
             ),

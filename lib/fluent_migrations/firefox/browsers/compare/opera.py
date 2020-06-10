@@ -5,14 +5,13 @@ from fluent.migrate.helpers import VARIABLE_REFERENCE, TERM_REFERENCE
 from fluent.migrate import REPLACE, COPY
 
 opera = "firefox/compare/opera.lang"
-shared = "firefox/compare/shared.lang"
 
 def migrate(ctx):
-    """Migrate bedrock/firefox/templates/firefox/compare/opera.html, part {index}."""
+    """Migrate bedrock/firefox/templates/firefox/browsers/compare/opera.html, part {index}."""
 
     ctx.add_transforms(
-        "firefox/compare/opera.ftl",
-        "firefox/compare/opera.ftl",
+        "firefox/browsers/compare/opera.ftl",
+        "firefox/browsers/compare/opera.ftl",
         transforms_from("""
 compare-opera-operas-privacy-policy-lacks = {COPY(opera, "Opera’s privacy policy lacks some specificity in its explanation of which types of information it collects and how, in certain sections, it says they collect names of account holders, IP addresses and search terms. What seems confusing and troubling is the section about International data transfers; when, how often and why they need to transfer your data internationally is not explained.",)}
 """, opera=opera) + [
@@ -168,6 +167,7 @@ compare-opera-operas-privacy-policy-lacks = {COPY(opera, "Opera’s privacy poli
                         "Linux": TERM_REFERENCE("brand-name-linux"),
                         "Android": TERM_REFERENCE("brand-name-android"),
                         "iOS": TERM_REFERENCE("brand-name-ios"),
+                        "Mac": TERM_REFERENCE("brand-name-mac"),
                     }
                 )
             ),
