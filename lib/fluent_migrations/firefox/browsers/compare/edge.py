@@ -60,6 +60,8 @@ def migrate(ctx):
                         "Edge": TERM_REFERENCE("brand-name-edge"),
                         "Firefox": TERM_REFERENCE("brand-name-firefox"),
                         "Chrome": TERM_REFERENCE("brand-name-chrome"),
+                        "Chromium": TERM_REFERENCE("brand-name-chromium"),
+                        "Google": TERM_REFERENCE("brand-name-google"),
                     }
                 )
             ),
@@ -72,6 +74,7 @@ def migrate(ctx):
                         "Firefox Browser": TERM_REFERENCE("brand-name-firefox-browser"),
                         "Microsoft": TERM_REFERENCE("brand-name-microsoft"),
                         "Edge": TERM_REFERENCE("brand-name-edge"),
+                        "Chromium": TERM_REFERENCE("brand-name-chromium"),
                     }
                 )
             ),
@@ -148,6 +151,7 @@ def migrate(ctx):
                     "Since Edge has moved to the processor intensive Chromium platform, you can expect it to run a little slower, especially if you have multiple programs running at once. However, with Chromium platform comes a massive library of extensions as well as a decent level of UI customization that Edge did not have before it’s move to Chromium.",
                     {
                         "Edge": TERM_REFERENCE("brand-name-edge"),
+                        "Chromium": TERM_REFERENCE("brand-name-chromium"),
                     }
                 )
             ),
@@ -204,6 +208,8 @@ def migrate(ctx):
                     "Out of the gate, Firefox has more features and integrations built into the browser and readily available on download. And while both browsers have a tremendous number of add-ons and extensions available, Edge’s compatibility with Google’s Chromium platform gives it the advantage in terms of sheer numbers.",
                     {
                         "Firefox": TERM_REFERENCE("brand-name-firefox"),
+                        "Google": TERM_REFERENCE("brand-name-google"),
+                        "Chromium": TERM_REFERENCE("brand-name-chromium"),
                     }
                 )
             ),
@@ -266,6 +272,7 @@ def migrate(ctx):
                         "Edge": TERM_REFERENCE("brand-name-edge"),
                         "Firefox": TERM_REFERENCE("brand-name-firefox"),
                         "Mozilla": TERM_REFERENCE("brand-name-mozilla"),
+                        "Chromium": TERM_REFERENCE("brand-name-chromium"),
                     }
                 )
             ),

@@ -57,6 +57,8 @@ compare-opera-operas-privacy-policy-lacks = {COPY(opera, "Opera’s privacy poli
                         "Firefox Browser": TERM_REFERENCE("brand-name-firefox-browser"),
                         "Opera": TERM_REFERENCE("brand-name-opera"),
                         "Firefox": TERM_REFERENCE("brand-name-firefox"),
+                        "Google": TERM_REFERENCE("brand-name-google"),
+                        "Chrome": TERM_REFERENCE("brand-name-chrome"),
                     }
                 )
             ),
@@ -115,6 +117,9 @@ compare-opera-operas-privacy-policy-lacks = {COPY(opera, "Opera’s privacy poli
                         "%(attrs)s": VARIABLE_REFERENCE("attrs"),
                         "Firefox": TERM_REFERENCE("brand-name-firefox"),
                         "Opera": TERM_REFERENCE("brand-name-opera"),
+                        "Chromium": TERM_REFERENCE("brand-name-chromium"),
+                        "Google": TERM_REFERENCE("brand-name-google"),
+                        "Chrome": TERM_REFERENCE("brand-name-chrome"),
                     }
                 )
             ),
@@ -140,6 +145,7 @@ compare-opera-operas-privacy-policy-lacks = {COPY(opera, "Opera’s privacy poli
                         "Opera": TERM_REFERENCE("brand-name-opera"),
                         "Pocket": TERM_REFERENCE("brand-name-pocket"),
                         "Firefox": TERM_REFERENCE("brand-name-firefox"),
+                        "Facebook": TERM_REFERENCE("brand-name-facebook"),
                     }
                 )
             ),
@@ -152,6 +158,7 @@ compare-opera-operas-privacy-policy-lacks = {COPY(opera, "Opera’s privacy poli
                         "Opera": TERM_REFERENCE("brand-name-opera"),
                         "Firefox": TERM_REFERENCE("brand-name-firefox"),
                         "Chrome": TERM_REFERENCE("brand-name-chrome"),
+                        "Chromium": TERM_REFERENCE("brand-name-chromium"),
                     }
                 )
             ),

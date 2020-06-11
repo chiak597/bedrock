@@ -47,8 +47,8 @@ compare-chrome-ultimately-its-up-to-you = {COPY(chrome, "Ultimately, it’s up t
 """, chrome=chrome)
         )
     ctx.add_transforms(
-        "firefox/compare/chrome.ftl",
-        "firefox/compare/chrome.ftl",
+        "firefox/browsers/compare/chrome.ftl",
+        "firefox/browsers/compare/chrome.ftl",
         [
             FTL.Message(
                 id=FTL.Identifier("compare-chrome-firefox-vs-chrome-which-is"),

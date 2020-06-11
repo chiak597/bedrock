@@ -17,6 +17,7 @@
 -brand-name-mozilla-corporation = Mozilla Corporation
 -brand-name-mozilla-foundation = Mozilla Foundation
 -brand-name-twitter = Twitter
+-brand-name-github = GitHub
 
 ## Firefox browsers
 
@@ -126,3 +127,4 @@
 
 -brand-name-google-play = Google Play
 -brand-name-youtube = YouTube
+-brand-name-chromium = Chromium
